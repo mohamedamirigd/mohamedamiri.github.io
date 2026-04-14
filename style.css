@@ -1,7 +1,7 @@
         :root {
-            --primary: #ffffff;
-            --secondary: #ffffff;
-            --accent: #ffffff;
+            --primary: #fcf9ca;
+            --secondary: #fcf9ca;
+            --accent: #fcf9ca;
             --space-bg: #ffffff;
             --glass: rgba(255, 255, 255, 0.03);
             --glass-border: rgba(255, 255, 255, 0.1);
@@ -59,8 +59,8 @@
         .profile-pic-container img {
             width: 200px; height: 200px;
             border-radius: 50%;
-            border: 2px solid var(--primary);
-            box-shadow: 0 0 20px #00d0ff71;
+            border: 2px solid var(--secondary);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.11);
             transition: 0.5s;
         }
 
